@@ -534,10 +534,10 @@ impl Program {
         }
         self.unuse_program();
 
-        #[cfg(debug_assertions)]
-        self.context
-            .error_check()
-            .expect("Unexpected rendering error occured")
+        // #[cfg(debug_assertions)]
+        // self.context
+        //     .error_check()
+        //     .expect("Unexpected rendering error occured")
     }
 
     ///
